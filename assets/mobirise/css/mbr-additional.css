@@ -411,3 +411,12 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#slider-0 P {
+  color: #41a85f;
+}
+#slider-0 SPAN {
+  font-size: 30px;
+}
+#slider-0 H2 {
+  color: #28324e;
+}
