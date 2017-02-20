@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>SOFTWARE DEVELOPER - Matteo Alesiani</title>
+	
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">  <!-- Cambiare immagine appena finito -->
+	<meta name="description" content="">
+  
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+	<link rel="stylesheet" href="assets/bootstrap-material-design-font/css/material.css">
+	<link rel="stylesheet" href="assets/tether/tether.min.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/animate.css/animate.min.css">
+	<link rel="stylesheet" href="assets/theme/css/style.css">
+	<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+		
+	<style>
+	body {
+	  font: 400 15px Lato, sans-serif;
+	  line-height: 1.8;
+	  color: #818181;
+	}
+	h2 {
+	  font-size: 24px;
+	  text-transform: uppercase;
+	  color: #303030;
+	  font-weight: 600;
+	  margin-bottom: 30px;
+	}
+	h4 {
+	  font-size: 19px;
+	  line-height: 1.375em;
+	  color: #303030;
+	  font-weight: 400;
+	  margin-bottom: 20px;
+	}
+	p {
+		color: #008080;
+	}
+	.container-fluid {
+	  padding: 100px 55px;
+	}
+	.container-footer {
+	  padding: 10px 5px;
+	}
+	.bg-contact {
+		background-image: url("image/crossP.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-attachment: fixed;
+	}
+	.bg-grey {
+	  background-color: #f6f6f6;
+	}
+	.navbar {
+	  margin-bottom: 0;
+	  background-color: #008080;
+	  z-index: 9999;
+	  border: 0;
+	  font-size: 12px !important;
+	  line-height: 1.42857143 !important;
+	  letter-spacing: 4px;
+	  border-radius: 0;
+	  font-family: Montserrat, sans-serif;
+	}
+	.navbar li a, .navbar .navbar-brand {
+	  color: #fff !important;
+	}
+	.navbar-nav li a:hover, .navbar-nav li.active a {
+	  color: #008080 !important;
+	  background-color: #fff !important;
+	}
+	.navbar-default .navbar-toggle {
+	  border-color: transparent;
+	  color: #fff !important;
+	}
+	footer .glyphicon {
+	  font-size: 20px;
+	  margin-bottom: 20px;
+	  color: #008080;
+	}
+	.slideanim {visibility:hidden;}
+	.slide {
+	  animation-name: slide;
+	  -webkit-animation-name: slide;
+	  animation-duration: 1s;
+	  -webkit-animation-duration: 1s;
+	  visibility: visible;
+	}
+	@keyframes slide {
+	0% {
+	  opacity: 0;
+	  transform: translateY(70%);
+	} 
+	100% {
+	  opacity: 1;
+	  transform: translateY(0%);
+	}
+	}
+	@-webkit-keyframes slide {
+	0% {
+	  opacity: 0;
+	  -webkit-transform: translateY(70%);
+	} 
+	100% {
+	  opacity: 1;
+	  -webkit-transform: translateY(0%);
+	}
+	}
+	@media screen and (max-width: 768px) {
+	.col-sm-4 {
+	  text-align: center;
+	  margin: 25px 0;
+	}
+	.btn-lg {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+	}
+	img:hover {
+		box-shadow: 6px 0px 40px #008080;
+	}
+	input:hover{
+		box-shadow: 5px 0px 40px #008080;
+	}
+	textarea:hover{
+		box-shadow: 5px 0px 40px #008080;
+	}
+	
+	</style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> 
+			</button>
+			<a class="navbar-brand" href="#myPage" >MATTEO ALESIANI<br>DEVELOPER</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+			<li><a href="#about">ABOUT ME</a></li>
+			<li><a href="#skills">SKILLS</a></li>
+			<li><a href="#social">SOCIAL</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Container (Slider Section)  -->
+<div class="mbr-slider mbr-section mbr-section__container carousel slide mbr-section-nopadding" data-ride="carousel" data-keyboard="false" data-wrap="true" data-pause="false" data-interval="5000" id="slider-0">
+    <div>
+        <div>
+            <div>
+                <ol class="carousel-indicators">
+                    <li data-app-prevent-settings="" data-target="#slider-0" data-slide-to="0" class="active"></li><li data-app-prevent-settings="" data-target="#slider-0" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider-0" class="" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="mbr-section mbr-section-hero carousel-item dark center mbr-section-full active" data-bg-video-slide="false" style="background-image: url(assets/images/developer-2000x863.jpg);">
+                        <div class="mbr-table-cell">
+                            <div class="mbr-overlay" style="opacity: 0.2;"></div>
+                            <div class="container-slide container">
+                                
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 text-xs-center">
+                                        
+                                        
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="mbr-section mbr-section-hero carousel-item dark center mbr-section-full" data-bg-video-slide="false" style="background-image: url(assets/images/mbr-2000x1334.jpg);">
+                        <div class="mbr-table-cell">
+                            <div class="mbr-overlay" style="opacity: 0.1;"></div>
+                            <div class="container-slide container">
+                                
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 text-xs-center">
+                                        
+                                        
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="mbr-section mbr-section-hero carousel-item dark center mbr-section-full" data-bg-video-slide="false" style="background-image: url(assets/images/mbr-1-2000x1333.jpg);">
+                        <div class="mbr-table-cell">
+                            <div class="mbr-overlay" style="opacity: 0.1;"></div>
+                            <div class="container-slide container">
+                                
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 text-xs-center">
+                                        
+                                        <p class="mbr-section-lead lead">Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.</p>
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a data-app-prevent-settings="" class="left carousel-control" role="button" data-slide="prev" href="#slider-0">
+                    <span class="icon-prev" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a data-app-prevent-settings="" class="right carousel-control" role="button" data-slide="next" href="#slider-0">
+                    <span class="icon-next" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+	
+	<script src="assets/web/assets/jquery/jquery.min.js"></script>
+	<script src="assets/tether/tether.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/smooth-scroll/smooth-scroll.js"></script>
+	<script src="assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
+	<script src="assets/viewport-checker/jquery.viewportchecker.js"></script>
+	<script src="assets/theme/js/script.js"></script>
+ 
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+	<div class="row slideanim">
+		<h2 align="center">My Story</h2>
+		<div class="col-sm-8">
+			<br>
+			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+	</div>
+</div>
+
+<!-- Container (Skills Section) -->
+<div id="skills" class="container-fluid bg-grey text-center">
+	<h2>SKILLS</h2>
+	
+</div>
+
+<!-- Container (Social Section) -->
+<div id="social" class="container-fluid text-center">
+	<h2>SOCIAL</h2>
+	<h4>WHERE YOU CAN FOLLOW ME</h4>
+	<br>
+	<div class="row slideanim">
+		<div class="col-sm-4">
+			<h4>GITHUB</h4>
+			<a href="https://github.com/ThereAlTeo" title="Connect to Github">
+				<img src="image/github.jpg" class="img-responsive img-circle margin" style="display:inline" alt="github" width="200" height="200">
+			</a>
+			<br><br>
+			<p>Lorem ipsum dolor sit amet..</p>
+		</div>
+		<div class="col-sm-4">
+			<h4>FACEBOOK</h4>
+			<a href= "https://www.facebook.com/matteo.alesiani.3" title="Connect to Facebook">
+				<img src="image/facebook.jpg" class="img-responsive img-circle margin" style="display:inline" alt="facebook" width="200" height="200">
+			</a>
+			<br><br>
+			<p>Lorem ipsum dolor sit amet..</p>
+		</div>
+		<div class="col-sm-4">
+			<h4>LINKEDIN</h4>
+			<a href="https://www.linkedin.com/in/matteo-Alesiani2169" title="Connect to Linkedin">
+				<img src="image/linkedin.jpg" class="img-responsive img-circle margin" style="display:inline" alt="linkedin" width="200" height="200">
+			</a>
+			<br><br>
+			<p>Lorem ipsum dolor sit amet..</p>
+		</div>
+	</div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+	<h2 class="text-center">CONTACT</h2>
+	<div class="row">
+		<div class="col-sm-5">
+			<p>Get in touch with me and I will happy to help you.</p>
+			<p><span class="glyphicon glyphicon-map-marker"></span> Fano (PU), Italy</p>
+			<p><span class="glyphicon glyphicon-envelope"></span> teo97.alesiani@gmail.com</p>
+		</div>
+		<div class="col-sm-7 slideanim">
+			<div class="row">
+				<div class="col-sm-6 form-group">
+					<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+				</div>
+				<div class="col-sm-6 form-group">
+					<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+				</div>
+			</div>
+			<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+			<div class="row">
+				<div class="col-sm-12 form-group">
+					<button class="btn btn-default pull-right" type="submit">Send</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+<footer class="container-footer text-center">
+	<a href="#myPage" title="To Top">
+		<span class="glyphicon glyphicon-chevron-up"></span>
+	</a>
+	<p>Web Site Designed By <a href="#myPage" title="Visit My Bio">Matteo Alesiani</a></p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
