@@ -52,8 +52,14 @@
 	.container-footer {
 	  padding: 10px 5px;
 	}
-	.bg-contact {
-		background-image: url("image/crossP.png");
+	.bg-social {
+		background-image: url("image/sparklers.jpg");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-attachment: fixed;
+	}
+	.bg-about {
+		background-image: url("image/sparklers.jpg");
 		background-repeat: no-repeat;
 		background-position: right;
 		background-attachment: fixed;
@@ -127,7 +133,7 @@
 	}
 	}
 	.img-circle:hover {
-		box-shadow: 6px 0px 40px #008080;
+		box-shadow: 6px 0px 150px #008080;
 	}
 	input:hover{
 		box-shadow: 5px 0px 40px #008080;
@@ -249,8 +255,20 @@
 		<h2 align="center">My Story</h2>
 		<div class="col-sm-8">
 			<br>
-			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<h4>
+				Appena ho iniziato le scuole superiori è nata una grande passione per l'informatica, che nel corso degli anni mi ha portato a sviluppare progetti importanti e approfondire continuamente le mie conoscenze.
+				Sono partito da piccoli programmi per poi incrementare la difficolta'
+				<br><br>
+				La grande potenza di questa disciplina, ci permette di poter REALIZZARE TUTTO QUELLO CHE IDEIAMO.
+			</h4>
+			<p>
+			E' un campo vasto ed in continua evoluzione. 
+				<br>
+				Occorre, quindi, una guida affidabile per chi non possiede buone competenze e un consulente dinamico al quale rivolgersi per questioni importanti.
+				I moderni software aiutato quotidiamente le persone nella piu' piccola azione, facilitandone l'esacuzione. A volte pero' non si trovo quello adatto alle nostre esigenze o alla nostra attivita'.
+				<br>
+				Rivolgersi ad uno specialista del settore permette a tutti di poter trovare quello che è piu' adatto alle esigenze.
+			</p>
 		</div>
 	</div>
 </div>
@@ -320,7 +338,7 @@
 </div>
 
 <!-- Container (Social Section) -->
-<div id="social" class="container-fluid text-center">
+<div id="social" class="container-fluid text-center bg-social">
 	<h2>SOCIAL</h2>
 	<h4>WHERE YOU CAN FOLLOW ME</h4>
 	<br>
@@ -353,7 +371,7 @@
 </div>
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
+<div id="contact" class="container-fluid">
 	<h2 class="text-center">CONTACT</h2>
 	<div class="row">
 		<div class="col-sm-4">
@@ -364,16 +382,15 @@
 		<div class="col-sm-8 slideanim">
 			<div class="row">
                 <div class="col-xs-12 col-lg-10 col-lg-offset-1" data-form-type="formoid">
-
                     <div data-form-alert="true">
                         <div hidden="" data-form-alert-success="true" class="alert alert-form alert-success text-xs-center">
 							Thanks for filling out form! Messaggio di invio
 						</div>
                     </div>
-
                     <form method="post" data-form-title="CONTACT FORM">
                         <input type="hidden" value="jg5AZ6h6pRptP5zsdEwxwArrlmiPkWJPI8nIcT8OdIGDkEu17OcrawMzNH/q9HrvRBNwUI9L2mIP2JLbahaoRK2AJrWTiehASjUmgMlvcX13bq1W15F3Jhok2XiEw8IM" data-form-email="true">
-                        <div class="row row-sm-offset">
+                        
+						<div class="row row-sm-offset">
                             <div class="col-xs-12 col-md-4">
                                 <div class="form-group">
                                     <label class="form-control-label" for="form1-3-name">Name<span class="form-asterisk">*</span></label>
@@ -400,7 +417,7 @@
                         </div>
 
                         <div>
-							<button type="submit" class="btn btn-primary right">CONTACT US</button>
+							<button type="submit" class="btn btn-primary">CONTACT US</button>
 						</div>
 
                     </form>
@@ -411,9 +428,8 @@
 	</div>
 </div>
 	
-
 <!-- Footer -->
-<footer class="container-footer text-center">
+<footer class="container-footer text-center bg-grey">
 	<a href="#myPage" title="To Top">
 		<span class="glyphicon glyphicon-chevron-up"></span>
 	</a>
