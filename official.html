@@ -23,6 +23,11 @@
 	<link rel="stylesheet" href="assets/theme/css/style.css">
 	<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/validate.js"></script>
+	
 	<style>
 	body {
 	  font: 400 15px Lato, sans-serif;
@@ -37,7 +42,7 @@
 	  margin-bottom: 30px;
 	}
 	h4 {
-	  font-size: 19px;
+	  font-size: 21px;
 	  line-height: 1.375em;
 	  color: #303030;
 	  font-weight: 400;
@@ -184,7 +189,7 @@
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2 text-xs-center">
                                         <h2 class="mbr-section-title display-1">MANAGE YOUR LIFE</h2>
-                                        <p class="mbr-section-lead lead"><br><br><span style="font-size: 1.5rem; line-height: 1.5;">Every moment of your life can be made easier thanks the software.</span><br>Request yours.<br></p>
+                                        <p class="mbr-section-lead lead"><br><br><span style="font-size: 1.5rem; line-height: 1.5;"><br><br>Every moment of your life can be made easier thanks the software.</span><br><br>Request yours.<br></p>
                                     </div>
                                 </div>
                             </div>
@@ -196,7 +201,7 @@
                                 
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2 text-xs-center">
-                                        <h2 class="mbr-section-title display-1">CUSTOMIZES THE SOFTWARE</h2>                                      
+                                        <h2 class="mbr-section-title display-1">CUSTOMIZES THE SOFTWARE<br><br><br></h2>                                      
                                     </div>
                                 </div>
                             </div>
@@ -220,7 +225,7 @@
                                 
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2 text-xs-center">
-                                        <h2 class="mbr-section-title display-1">REALIZE RESPONSIVE <br>WEB-SITE<br><br><br></h2>                                        
+                                        <h2 class="mbr-section-title display-1"><br>REALIZE RESPONSIVE<br>WEB-SITE<br><br><br></h2>                                        
                                     </div>
                                 </div>
                             </div>
@@ -374,7 +379,8 @@
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid">
-	<h2 class="text-center">CONTACT</h2>
+
+	<h2 class="text-center">CONTACT ME </h2>
 	<div class="row">
 		<div class="col-sm-4">
 			<p>Get in touch with me and I will happy to help you.</p>
@@ -384,14 +390,8 @@
 		<div class="col-sm-8 slideanim">
 			<div class="row">
                 <div class="col-xs-12 col-lg-10 col-lg-offset-1" data-form-type="formoid">
-                    <div data-form-alert="true">
-                        <div hidden="" data-form-alert-success="true" class="alert alert-form alert-success text-xs-center">
-							Thanks for filling out form! Messaggio di invio
-						</div>
-                    </div>
-                    <form method="post" data-form-title="CONTACT FORM">
-                        <input type="hidden" value="jg5AZ6h6pRptP5zsdEwxwArrlmiPkWJPI8nIcT8OdIGDkEu17OcrawMzNH/q9HrvRBNwUI9L2mIP2JLbahaoRK2AJrWTiehASjUmgMlvcX13bq1W15F3Jhok2XiEw8IM" data-form-email="true">
-                        
+                    <form form action="contatti.php" method="post" id="contatti" data-form-title="CONTACT FORM">
+						<p> 
 						<div class="row row-sm-offset">
                             <div class="col-xs-12 col-md-4">
                                 <div class="form-group">
@@ -419,7 +419,7 @@
                         </div>
 
                         <div>
-							<button type="submit" class="btn btn-primary">CONTACT ME</button>
+							<button type="submit" name="submit" id="submit" class="btn btn-primary">CONTACT ME</button>
 						</div>
 
                     </form>
