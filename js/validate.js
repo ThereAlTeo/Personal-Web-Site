@@ -2,33 +2,33 @@ $(function(){
  
 	$("#contatti").validate({
 	rules:{
-		'form1-3-name':{
+		'name':{
 		required: true,
 		minlength: 3
 		},
 
-		'form1-3-email':{
+		'email':{
 		required: true,
 		email: true
 		},
 		
-		'form1-3-message':{
+		'message':{
 		required: true,
 		minlength: 5
 		}
 	},
 	messages:{
-		'form1-3-name':{
+		'name':{
 		required: "Il campo nome è obbligatorio!",
 		minlength: "Inserisci il nome !!!"
 		},
 
-		'form1-3-email':{
+		'email':{
 		required: "L' email è obbligatoria!",
 		email: "L'Email inserita non è valida!"
 		},
 		
-		'form1-3-message':{
+		'message':{
 		required: "Il campo messaggio è obbligatorio!",
 		minlength: "Insersci il messaggio !!!"
 		}
